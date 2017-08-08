@@ -1,0 +1,29 @@
+{
+    "title": "IBM Cloud for Financial Services",
+    "sections": [
+        {
+            "title": "Overview",
+            "subsections": [
+                {
+                    "text": "IBM Cloud for Financial Services is a new top level section of Bluemix. This was a fairly substantial undertaking aimed at introducing new financial API's to Bluemix, as well as creating a better project management system in Bluemix.<br/><br/>I was leading a team of three developers to deliver this experience and integrate and extend Bluemix's CloudFoundry backend, and was also working as a UX designer in the initial weeks of this project.<br/><br/>This work ended up headlining a conference, and also showcased the Investment Insights with Watson software that I also created.<br/><br/><a href='http://www.bluemix.net/finance'>View Live Site</a>",
+                    "img": "/images/bluemix/bluemix1.png",
+                    "caption": "Sketches for IBM Cloud for Financial Services."
+                    
+                }
+            ]
+        },
+        {
+            "title": "Final Interface",
+            "subsections": [
+                {
+                    "img": "/images/bluemix/bluemix3.png",
+                    "caption": "IBM Cloud for Financial Services homepage."
+                },
+                {
+                    "img": "/images/bluemix/bluemix2.png",
+                    "caption": "New projects page to make it easier to associates services and runtimes with each other."
+                }
+            ]
+        }
+    ]
+}

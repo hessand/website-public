@@ -1,0 +1,28 @@
+<section class="main-content">
+    <header class="main-content__header">
+        <h1>Contact</h1>
+    </header>
+    <article>
+        <header>
+            <h2>Overview</h2>
+        </header>
+        {% for content in data.sections %}
+            {% if content.text %}
+                <div class="row content-row">
+                    <p>{{ content.text }}</p>
+                    <div class="flex-image">
+                        <img src="{{ content.img }}" alt="{{ content.caption }}">
+                    </div>
+                </div>
+            {% else %}
+                <div class="row image-row">
+                    <div class="">
+                        <img src="{{ content.img }}" alt="{{ content.caption }}">
+                    </div>
+                    <p class="footnote">{{ content.caption }}</p>
+                </div>
+            {% endif %}
+        {% endfor %}
+    </article>
+    
+</section>

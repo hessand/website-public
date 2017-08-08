@@ -1,0 +1,26 @@
+{
+    "title": "Watson Analytics",
+    "sections": [
+        {
+            "title": "Overview",
+            "subsections": [
+                {
+                    "text": "Watson Analytics was one of the first projects that I worked on at IBM. Watson Analytics is a BI tool to help users understand and visualize both live and static data.<br/><br/>I worked mostly on the UX of the 'Display' section of Watson Analytics which encompassed many of the aspects of dashboarding and creating reports.<br/><br/>As part of this work, I also created a consumable style guide for the dev team to ensure consistency in styles / colors / componentry where possible, which was later integrated into many other products in the portfolio."
+                }
+            ]
+        },
+        {
+            "title": "Final Interface",
+            "subsections": [
+                {
+                    "img": "/images/watsonanalytics/wa1.png",
+                    "caption": "Watson Analytics Discover."
+                },
+                {
+                    "img": "/images/watsonanalytics/wa2.png",
+                    "caption": "Watson Analytics Display."
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,34 @@
+<section class="main-content">
+    <header class="main-content__header">
+        <h1>{{ data.title }}</h1>
+    </header>
+    <article>
+        {% for section in data.sections %}
+            <header>
+                <h2>{{ section.title }}</h2>
+            </header>
+            {% for content in section.subsections %}
+                {% if content.text and content.img %}
+                    <div class="row mix-row">
+                        <p>{{ content.text | safe }}</p>
+                        <div class="flex-image">
+                            <img src="{{ content.img }}" alt="{{ content.caption }}">
+                        </div>
+                    </div>
+                {% elif content.text %}
+                    <div class="row content-row">
+                        <p>{{ content.text | safe }}</p>
+                    </div>
+                {% else %}
+                    <div class="row image-row">
+                        <div class="image-row__wrapper">
+                            <img src="{{ content.img }}" alt="{{ content.caption }}">
+                        </div>
+                        <p class="footnote">{{ content.caption }}</p>
+                    </div>
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+    </article>
+    
+</section>

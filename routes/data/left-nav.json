@@ -1,0 +1,14 @@
+[
+    {
+        "link": "/",
+        "name": "Home"
+    },
+    {
+        "link": "/projects",
+        "name": "Projects"
+    },
+    {
+        "link": "/resume",
+        "name": "Resume"
+    }
+]

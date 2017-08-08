@@ -1,0 +1,51 @@
+
+
+/*Colors*/
+$bg-color: #F8F9FA;
+$bg-alt: #FFF;
+$font: #FFF;
+$font-alt: #F8F9FA;
+$primary-color: #353C4D;
+$secondary-color: #5F7DC9;
+$neutral: #FFF;
+$border: #EBEBED;
+
+/*Breakpoints*/
+$breakpoint-s: 820px;
+$breakpoint-m: 960px;
+$breakpoint-l: 1280px;
+$breakpoint-xl: 1920px;
+
+@import './partials/_layout.scss';
+
+*{
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+body, html{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+body{
+	background-color: $bg-color;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1,h2,h3{
+    font-weight: 700;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+h3{
+    font-size: 1.25rem;
+}

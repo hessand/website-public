@@ -1,0 +1,40 @@
+{
+    "title": "Investment Insights with Watson",
+    "sections": [
+        {
+            "title": "Overview",
+            "subsections": [
+                {
+                    "text": "Investment Insights with Watson began as a proof of concept of seeing how existing internal financial API's could be combined with natural language processing and other cognitive capabilities.<br/><br/>The total timeline of this project was one week for the initial design and development, then another three days for some tweaks to the UI based on user feedback. My role was as a UX Designer and Developer, working with only one other designer.<br/><br/><a href='http://investment-insights.mybluemix.net/'>View Demo</a>"
+                }
+            ]
+        },
+        {
+            "title": "Initial Sketches",
+            "subsections": [
+                {
+                    "text": "This project initially began as a short proof of concept, to be delivered in about a weeks time for both design and development.",
+                    "img": "/images/investmentinsights/wii1.png",
+                    "caption": "First round of iterations."
+                },
+                {
+                    "text": "Multiple different directions were explored, looking at if this would be more useful to be used like a dashboard, read like a news article, or somewhere inbetween.",
+                    "img": "/images/investmentinsights/wii2.png",
+                    "caption": "First round of iterations."
+                }
+            ]
+        },
+        {
+            "title": "Final Layouts",
+            "subsections": [
+                {
+                    "text": "After about a week, we had landed on an intial version that we demoed to different sponsored users in the industry. After collecting their feedback, we ended up doing another short design sprint and UI overhaul for a more of a 'reporting format'."
+                },
+                {
+                    "img": "/images/investmentinsights/wii4.png",
+                    "caption": "Final layout for Investment Insights with Watson"
+                }
+            ]
+        }
+    ]
+}

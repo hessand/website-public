@@ -1,0 +1,30 @@
+{
+    "title": "DataWorks Lift",
+    "sections": [
+        {
+            "title": "Overview",
+            "subsections": [
+                {
+                    "text": "DataWorks Lift was one part of the 'E' in the 'ETL' of DataWorks. Lift is used for on-premise to cloud database migration for databases well into the terabyte range. Benchmarked against the comparable AWS tools at the time, DataWorks Lift performed nearly 6x faster.<br/><br/>I worked on this project as a UX designer and front end developer."
+                }
+            ]
+        },
+        {
+            "title": "Final Interface",
+            "subsections": [
+                {
+                    "img": "/images/dataworkslift/lift1.png",
+                    "caption": "DataWorks Lift homepage."
+                },
+                {
+                    "img": "/images/dataworkslift/lift3.png",
+                    "caption": "DataWorks Lift schema selection."
+                },
+                {
+                    "img": "/images/dataworkslift/lift4.png",
+                    "caption": "DataWorks Lift final upload screen."
+                }
+            ]
+        }
+    ]
+}

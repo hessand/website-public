@@ -1,0 +1,27 @@
+[
+    
+    {
+        "link": "/projects/investment-insights",
+        "title": "Investment Insights with Watson",
+        "description": "Investment Insights with Watson: evaluate portfolio risk based on market events in real time using natural language processing and financial API's",
+        "image": "/images/icon/investmentinsights.png"
+    },
+    {
+        "link": "/projects/bluemix-finance",
+        "title": "Bluemix Finance",
+        "description": "Bluemix Finance: a new IBM offering in the FinTech space centered around API's.",
+        "image": "/images/icon/bluemixfinance.png"
+    },
+    {
+        "link": "/projects/dataworks-lift",
+        "title": "DataWorks Lift",
+        "description": "On-prem to cloud data migration tool for databases well into the terabytes.",
+        "image": "/images/icon/dataworkslift.png"
+    },
+    {
+        "link": "/projects/watson-analytics",
+        "title": "Watson Analytics",
+        "description": "Business Intelligence tool based around consuming and visualizing data both live and static data.",
+        "image": "/images/icon/watsonanalytics.png"
+    }
+]

@@ -1,0 +1,16 @@
+<section class="side-nav">
+    <a href="/">
+        <header class="side-nav__wordmark">
+            <h1>Andrew<br/>Hess</h1>
+        </header>
+    </a>
+    <nav class="side-nav__links">
+        <ul>
+            {% for links in leftnav %}
+            <a href="{{ links.link }}">
+                <li>{{ links.name }}</li>
+            </a>
+            {% endfor %}
+        </ul>
+    </nav>
+</section>
